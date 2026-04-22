@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE alumno [
-    <!ELEMENT alumno (nombre, nacimiento)>
-    <!ELEMENT nombre (#PCDATA)>
-    <!ELEMENT nacimiento (#PCDATA)>
-]>
+<!DOCTYPE alumno SYSTEM "xml-00.dtd">
 <alumno>
     <nombre>Eren Jeager</nombre>
     <nacimiento>30/marzo/835</nacimiento>
