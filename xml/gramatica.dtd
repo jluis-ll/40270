@@ -1,0 +1,5 @@
+<!ELEMENT gramatica (regla*)>
+<!ELEMENT regla (nombre, produccion+)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT produccion (simbolo+)>
+<!ELEMENT simbolo (#PCDATA)>
