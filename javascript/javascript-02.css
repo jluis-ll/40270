@@ -1,13 +1,10 @@
 button {
-    width: 33.3%;
-    height: 30;
-    padding: 10%;
-    /*padding-bottom: 20px;
-    padding-top: 20px;*/
+    width: 25%;
+    height: 50px;
 }
 
 button[id="b0"]{
-    width: 100%;
+    width: 75%;
 }
 
 div {
@@ -18,8 +15,17 @@ div {
 
 input{
     width: 100%;
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    margin-bottom: 3px;
 }
 
-.operadores {
-    background-color: #f0ad4e;
+.igual {
+    width: 75%;
+}
+
+.operador {
+    background-color: wheat;
 }
