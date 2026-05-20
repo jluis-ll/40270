@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE alumno SYSTEM "xml-00.dtd">
+<!DOCTYPE alumnos SYSTEM "xml-00.dtd">
+<alumnos>
 <alumno>
     <nombre>Eren Jeager</nombre>
     <nacimiento>30/marzo/835</nacimiento>
 </alumno>
+<alumno>
+    <nombre>Eren Jeager</nombre>
+    <nacimiento>30/marzo/835</nacimiento>
+</alumno>
+</alumnos>

@@ -1,33 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE gramatica SYSTEM "gramatica.dtd">
+<!DOCTYPE casa SYSTEM "gramatica.dtd">
 
-<gramatica>
-    <regla>
-        <nombre>S</nombre>
-        <produccion>
-            <simbolo>A</simbolo>
-            <simbolo>B</simbolo>
-        </produccion>
-        <produccion>
-            <simbolo>a</simbolo>
-        </produccion>
-    </regla>
-
-    <regla>
-        <nombre>A</nombre>
-        <produccion>
-            <simbolo>a</simbolo>
-            <simbolo>A</simbolo>
-        </produccion>
-        <produccion>
-            <simbolo>a</simbolo>
-        </produccion>
-    </regla>
-
-    <regla>
-        <nombre>B</nombre>
-        <produccion>
-            <simbolo>b</simbolo>
-        </produccion>
-    </regla>
-</gramatica>
+<casa>
+    <direccion>Calle Falsa 123</direccion>
+    <color>Blanco</color>
+    <tamanio>120m2</tamanio>
+</casa>

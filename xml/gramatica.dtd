@@ -1,5 +1,4 @@
-<!ELEMENT gramatica (regla*)>
-<!ELEMENT regla (nombre, produccion+)>
-<!ELEMENT nombre (#PCDATA)>
-<!ELEMENT produccion (simbolo+)>
-<!ELEMENT simbolo (#PCDATA)>
+<!ELEMENT casa (direccion, color, tamanio)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT tamanio (#PCDATA)>
